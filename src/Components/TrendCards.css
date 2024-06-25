@@ -1,0 +1,229 @@
+.Upper_trending_part {
+    height: 65%; /* Ökad höjd */
+    width: 90%; /* Ökad bredd */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.slider-container-2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    cursor: grab;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.card-2 {
+    height: 260px; /* Ökad höjd */
+    width: 95%; /* Ökad bredd */
+    background-color: rgba(153, 153, 153, 0.356);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.589);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    filter: grayscale(70%) blur(1px);
+    transition: background-color 0.7s ease-in-out, height 0.4s ease-in-out, width 0.4s ease-in-out, filter 0.4s ease-in-out;
+    overflow: hidden;
+    cursor: not-allowed;
+}
+
+.card_upper {
+    height: 65%; /* Ökad höjd */
+    width: 100%;
+    background-color: rgba(6, 238, 255, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.jordan1red {
+    min-height: 100%; /* Ökad höjd */
+    min-width: 60%; /* Ökad bredd */
+    height: 100%;
+    width: 60%;
+}
+
+.card_lower {
+    height: 35%; /* Minskad höjd */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name, .price {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 18px; /* Ökad font-size */
+}
+
+.price {
+    font-family: sans-serif;
+    font-size: 16px; /* Ökad font-size */
+    margin-top: 5px;
+}
+
+.cart-trend {
+    background-color:rgba(6, 238, 255, 0.603);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 148, 12, 0.418);
+    color: rgb(0, 0, 0);
+    padding: 8px; /* Ökad padding */
+    width: 200px; /* Ökad bredd */
+    border-radius: 30px;
+    font-size: 12px; /* Ökad font-size */
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.05s ease;
+}
+
+.cart-trend:hover {
+    background-color: rgba(0, 110, 28, 0.842);
+    border-color: rgba(255, 255, 255, 0.76);
+    color: rgb(255, 255, 255);
+}
+
+.cart-trend:active {
+    transform: scale(0.85);
+}
+
+.slick-current .card-2 {
+    background-color: rgba(108, 117, 122, 0.171);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    filter: blur(0px) grayscale(0);
+    cursor: grab;
+}
+
+.slick-next {
+    right: -23px !important;
+    color: black !important;
+}
+
+.slick-prev {
+    left: -23px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: rgba(0, 0, 0, 0.575) !important;
+    font-family: sans-serif !important;
+    font-size: 40px !important;
+}
+
+.slick-prev:before {
+    content: '\2039' !important;
+}
+
+.slick-next:before {
+    content: '\203A' !important; /* Unicode for right-pointing single angle quotation mark */
+}
+
+.Lower_trending_part {
+    height: 50%; /* Ökad höjd */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.404);
+    background: linear-gradient(to bottom, rgb(196, 196, 196), rgba(255, 255, 0, 0));
+}
+
+.CIO-offers-you {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers_you_header {
+    font-family: sans-serif;
+    font-size: 20px; /* Ökad font-size */
+    color: rgb(77, 77, 77);
+}
+
+.service-container {    
+    height: 65%; /* Ökad höjd */
+    width: 95%; /* Ökad bredd */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-container {
+    height: 100%;
+    width: 85%; /* Ökad bredd */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contain2 {
+    height: 80%;
+    width: 18%; /* Ökad bredd */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-real {
+    height: 60%; /* Ökad höjd */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    min-height: 80%; /* Ökad höjd */
+    min-width: 40%; /* Ökad bredd */
+    height: 80%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.svg_words {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg_title, .svg_paragraph {
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.svg_title {
+    font-size: 13px; /* Ökad font-size */
+}
+
+.svg_paragraph {
+    font-size: 12px; /* Ökad font-size */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.705);
+}
